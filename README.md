@@ -2,11 +2,12 @@
 
 
 ### Overview
-Develop a backend for a money lending application, similar to apps like Slice and KreditBee. Implement the following 4 APIs using MongoDB, Postman, and Node.js. Adding Comments to the logic is mandatory.
+This project implements the backend for a money lending application, similar to apps like Slice and KreditBee. The backend is developed using MongoDB, Postman, and Node.js.
+The following 4 APIs are implemented.
 
 ### APIs
 
-#### 1. Approve Application During Signup
+#### 1. Register API
 - **Endpoint:** POST /register
 - **Functionality:**
   - Approve or reject the application based on user age and monthly salary.
@@ -70,7 +71,7 @@ Develop a backend for a money lending application, similar to apps like Slice an
 ```json
 {
   "success": true,
-  "token": *token generated*
+  "token": "<token generated>"
 }
 ```
 ### Login API
@@ -113,6 +114,7 @@ Develop a backend for a money lending application, similar to apps like Slice an
   }
 }
 ```
+
 
 ### Loan Route: `/api/loan`
 ### Borrow API
