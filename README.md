@@ -16,9 +16,9 @@ The following 4 APIs are implemented.
 
 - **Validation Criteria:**
   - User should be above 20 years of age.
-  ![Alt text](./images/RegisterUser%20agenot.png)
+  ![Alt text](./images/RegisterUser%20agenotsatisfied.png)
   - Monthly salary should be 25k or more.
-  ![Alt text](./images/RegisterUser%20salarynot.png)
+  ![Alt text](./images/RegisterUser%20salarynotsatisfied.png)
 
 
 #### 2. Login API
